@@ -1,0 +1,24 @@
+{
+  "model_type": "HDBSCAN_demand_zones_optimized",
+  "version": "2.0",
+  "feature_columns": [
+    "pickup_latitude",
+    "pickup_longitude"
+  ],
+  "nyc_bounds": {
+    "min_lon": -74.5,
+    "max_lon": -73.3,
+    "min_lat": 40.5,
+    "max_lat": 41.2
+  },
+  "training_samples": 1447895,
+  "clustering_samples": 100000,
+  "silhouette_score": null,
+  "clustering_params": {
+    "min_cluster_size": 100,
+    "min_samples": 20,
+    "sample_size": 100000
+  },
+  "n_zones": 7,
+  "clustering_method": "HDBSCAN"
+}
